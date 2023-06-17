@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
 * main - Entry point of a program
 *
 * Return: Always 0 (success)
@@ -12,9 +12,9 @@ int main(void)
 
 	for (a = '0'; a <= '9'; a++)
 	{
-	for (b = '0'; b <= '9'; b++)
+	for (b = a + 1; b <= '9'; b++)
 	{
-	if (a != b)
+	if (a < b && a != b)
 	{
 	putchar(a);
 	putchar(b);
@@ -27,4 +27,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
