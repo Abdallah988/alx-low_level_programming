@@ -4,9 +4,9 @@
 * @c: c is the number to be checked
 * Return: 1 for upper letter, 0 for otherwise
 */
-int _isupper(int c);
+int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 	{
 	return (1);
 	}
