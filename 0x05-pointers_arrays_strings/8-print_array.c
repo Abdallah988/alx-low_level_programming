@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* pirnt_array - prints n elements of an array of integers
+* print_array - Prints n elements of an array of integers
 * @a: pointer parameter input
 * @n: string parameter inpur
 * Return: void
@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 	{
 	if (i != (n - 1))
 		{
-		printf("%d,", a[i]);
+		printf("%d, ", a[i]);
 		}
 		else
 		{
