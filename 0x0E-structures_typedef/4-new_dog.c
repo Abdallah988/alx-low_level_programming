@@ -12,20 +12,16 @@ int _strlen(const char *str)
 	int length = 0;
 
 	while (*str++)
-	{
 		length++;
-	}
 	return (length);
 }
 
 /**
- * *_strcpy - copies the string pointed to by src
- * including the terminating null byte (\0)
- * to the buffer pointed to by dest
+ * *_strcpy - a function return @dest with a copy of a string from @src
  * @dest: pointer to the buffer in which we copy the string
  * @src: string to be copied
  *
- * Return: the pointer to dest
+ * Return: @dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -50,7 +46,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 
-	/* if name and owner are empty and age is less than zero return null*/
+	/* if name and owner are empty and age is less than zero return null */
 	if (!name || age < 0 || !owner)
 		return (NULL);
 
