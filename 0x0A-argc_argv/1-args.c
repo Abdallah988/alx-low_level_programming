@@ -10,7 +10,7 @@
 int main(int argc, char *argv[] __attribute__((unused)))
 {
 	printf("%i\n", argc - 1);
-	//we can remove unused and using void (argv);
+	/*we can remove unused and using void (argv);*/
 	return (0);
 
 }
