@@ -4,7 +4,6 @@
 * main - entry point
 * @argc: argument counter
 * @argv: argument value
-* @mul: multiplicate
 * Return: 0
 */
 int main(int argc, char *argv[])
@@ -23,4 +22,3 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
-
